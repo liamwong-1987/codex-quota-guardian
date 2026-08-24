@@ -1,0 +1,7 @@
+interface:
+  display_name: "Codex额度守护者"
+  short_description: "单智能体五职业评审，确认后选模、执行并验收，全程保护额度与质量"
+  default_prompt: "使用 $codex-quota-guardian 先运行单智能体五职业评审、脑暴和规划，为任务推荐合适的 Codex 模型，获得确认后再执行并验收。"
+
+policy:
+  allow_implicit_invocation: true
